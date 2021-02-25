@@ -34,7 +34,7 @@ namespace TestExamples.UnitTests.ServiceTests
         }
 
         [Fact]
-        public async Task deneme()
+        public async Task GetAllProductAsyncTest()
         {
             await SeedData.ResetAllDatas().ConfigureAwait(false);
 
